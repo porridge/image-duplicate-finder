@@ -1,5 +1,7 @@
 # image-duplicate-finder
-Command-line tool for finding image duplicates
+Command-line tool for finding image duplicates.
+
+This program is inspired by [findimagedupes](https://github.com/jhnc/findimagedupes) but uses the image comparison algorithm from the [Geeqie](https://github.com/BestImageViewer/geeqie) image browser.
 
 ## Dependencies
 
@@ -51,9 +53,6 @@ $ ./image-duplicate-finder -p ls -p -l *.jpg
 -rw-r--r-- 1 porridge porridge 510553 09-07 21:34 d.jpg
 ```
 
+## License
 
-## Notes
-
-License: GPL 2.0.
-
-This program uses image comparison algorithm from the [Geeqie](https://github.com/BestImageViewer/geeqie) image browser.
+GPL 2.0.
